@@ -1,0 +1,43 @@
+nav ul{
+	list-style-type:none;
+	margin:auto;
+	padding:0;
+	overflow:hidden;
+	background: -webkit-linear-gradient(left, #99f, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #99f , yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #99f , yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #99f , black); /* Standard syntax (must be last) */
+	position: fixed;
+	color:black;
+	top:0px;
+	left:0px;
+	width:100%;
+}
+nav ul li{
+	float:left;
+	border-right:1px solid #bbb;	
+}
+nav ul li:last-child {
+	border-right:none;
+	float:right;
+}
+nav ul li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	
+}
+nav ul li a:hover:not(.active){
+	background: -webkit-linear-gradient(left, white , #aaf); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, white, #aaf); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, white, #aaf); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, white , #aaf); /* Standard syntax (must be last) */
+	color:black;
+	transition:2s;
+}
+.active {
+	background-color:black;
+	color:white;
+}
