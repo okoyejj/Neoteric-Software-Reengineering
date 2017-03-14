@@ -12,12 +12,13 @@ nav ul{
 	top:0px;
 	left:0px;
 	width:100%;
+	box-shadow:10px 10px 5x 0px rgba(150,150,150,0.3);
 }
 nav ul li{
 	float:left;
 	border-right:1px solid #bbb;	
 }
-nav ul li:last-child {
+nav ul li:last-child {	
 	border-right:none;
 	float:right;
 }
@@ -37,6 +38,30 @@ nav ul li a:hover:not(.active){
 	color:black;
 	transition:2s;
 }
+li.tech{
+	position:relative;
+		}
+div.navi{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#eee;
+	padding:0;
+	box-shadow:10px 10px 5x 0px rgba(150,150,150,0.3);
+	border-radius:5px;
+}
+nav ul li:hover div.navi{
+	display:block;
+	z-index:1;
+	min-width:100px;
+}
+div.navi a{
+	display:block;
+	text-decoration:none;
+	border-radius:5px;
+}
+
 .active {
 	background-color:black;
 	color:white;
