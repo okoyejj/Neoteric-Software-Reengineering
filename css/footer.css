@@ -6,13 +6,13 @@ footer{
 	
 	position:absolute;
 	bottom:0;
-	height:30%;
+	min-height:30%;
 }
 .footer-address{
 	/*background-color:#292c2f;*/
-	background: -webkit-linear-gradient(left, #99f, yellow); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, #99f , yellow); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, #99f , yellow); /* For Firefox 3.6 to 15 */
+	background: -webkit-linear-gradient(left, #99f, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #99f , black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #99f , black); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right, black, #99f , black); /* Standard syntax (must be last) */
 	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.12);
 	box-sizing:border-box;
